@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html {
+  background: #fff;
+  color: #000;
+  font: 100%/1.4 'Noticia Text', serif;
+  text-align: center;
+}
+
+body {
+  width: fit-content;
+  width: -moz-fit-content;
+  padding: 1rem 1.5rem;
+  margin: 0 auto;
+  border: 2px solid #000;
+  border-image: linear-gradient(to bottom right, lavender, thistle) 1;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline dashed thistle 1px;
+}
+
+a:hover {
+  text-decoration-style: double;
+}
+
+.badge {
+  margin: 0;
+}
+
+.badge:before,
+.badge:after {
+  display: none;
+}
+
+.site-name,
+.webring-name {
+  font-weight: bold;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.links a:not(:first-of-type) {
+  margin-left: 1.5rem;
+}

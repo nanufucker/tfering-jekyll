@@ -47,6 +47,8 @@ replacing `haddock` with the name of the file you added. The `parent.js` script 
 
 If the styling isn't your thing, use your own css by appending the `stylesheet` query string param to the iframe's src attribute.
 
+If you want to have custom fonts, please upload the stylesheet to the repository [here](https://github.com/nanufucker/tfering-jekyll/tree/main/assets) by making a pull request!
+
 ```
 <iframe src="{{'/sites/haddock' | absolute_url}}?stylesheet={{'/assets/alternate-embed.css' | absolute_url}}">
 </iframe>
